@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.feature-sec{
+	padding:60px 0;
+}
+.container{
+	width:70%;
+	margin:auto;
+	
+}
+.feature-row{
+	border:1px solid lightgray;
+	border-radius:8px;
+	border-collapse:collapse;
+	
+}
+.title{
+	text-align:center;
+}
+.head{
+	display:flex;
+	justify-content:space-between;
+	background-color:lightblue;
+	padding:15px 20px;
+	cursor:pointer;
+	border:1px solid lightgray;
+    font-size:18px;
+}
+.cnt{
+	padding:20px;
+	font-size:18px;
+	transition:all ease-in-out 0.8s;
+}
+.hidden{
+	display:none;
+}
